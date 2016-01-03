@@ -2,7 +2,7 @@
 
 HERE=$(dirname $0)
 
-FILES=""
+FILES=".gitconfig .gitignore_global"
 
 # create symlinks for each file in links.txt
 for file in $FILES; do

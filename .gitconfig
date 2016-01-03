@@ -1,0 +1,10 @@
+[user]
+	name = Chris O'Reilly
+	email = oreillc194@potsdam.edu
+
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = vim
+
+[push]
+	default = current
