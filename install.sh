@@ -3,7 +3,9 @@
 cd $(dirname $0)
 HERE=$(pwd)
 
-FILES=".gitconfig .gitignore_global"
+FILES=".gitconfig .gitignore_global \
+       .vim .vimrc \
+      "
 
 # create symlinks for each file in links.txt
 for file in $FILES; do
