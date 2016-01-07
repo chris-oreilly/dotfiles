@@ -1,3 +1,6 @@
 # vim swap and backup files
 *~
 *.swp
+
+# compiled python modules
+*.pyc
