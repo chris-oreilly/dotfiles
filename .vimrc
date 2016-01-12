@@ -13,3 +13,6 @@ set expandtab
 set number
 
 inoremap jk <ESC>
+
+" open Fugitive's status menu
+nnoremap <leader>gs :Gstatus<CR>
