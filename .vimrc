@@ -16,3 +16,9 @@ inoremap jk <ESC>
 
 " open Fugitive's status menu
 nnoremap <leader>gs :Gstatus<CR>
+
+" Switch to next file matched by altr with F2
+nmap <F2> <Plug>(altr-forward)
+
+" add altr rule for Java (Gradle) test classes
+call altr#define("src/main/%.java", "src/test/%Test.java")
